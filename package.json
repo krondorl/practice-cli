@@ -1,0 +1,39 @@
+{
+  "name": "practice-cli",
+  "bin": {
+    "practice": "./index.js"
+  },
+  "version": "0.0.1",
+  "description": "CLI project with TypeScript and Node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx tsx src/index.ts --"
+  },
+  "engines": {
+    "node": ">=18.13.0",
+    "npm": ">=8.19.3"
+  },
+  "keywords": [
+    "practice",
+    "cli",
+    "practice cli",
+    "cli practice",
+    "typescript",
+    "node.js",
+    "commander",
+    "matt pocock",
+    "good practices",
+    "best practices"
+  ],
+  "author": "Adam Burucs",
+  "license": "CC BY-NC-ND 4.0",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  }
+}
